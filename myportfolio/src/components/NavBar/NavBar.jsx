@@ -39,7 +39,7 @@ const NavBar = () => {
               <Link
                 to="/"
                 onClick={handleClose}
-                style={{ color: location.pathname === "/" && "#0c56f4" }}
+                style={{ color: location.pathname === "/" && "	#eb148d" }}
               >
                 Home
               </Link>
@@ -48,7 +48,7 @@ const NavBar = () => {
               <Link
                 to="/about"
                 onClick={handleClose}
-                style={{ color: location.pathname === "/about" && "#0c56f4" }}
+                style={{ color: location.pathname === "/about" && "	#eb148d" }}
               >
                 About
               </Link>
@@ -57,7 +57,7 @@ const NavBar = () => {
               <Link
                 to="/skills"
                 onClick={handleClose}
-                style={{ color: location.pathname === "/skills" && "#0c56f4" }}
+                style={{ color: location.pathname === "/skills" && "	#eb148d" }}
               >
                 Skills
               </Link>
@@ -66,7 +66,7 @@ const NavBar = () => {
               <Link
                 to="/cv"
                 onClick={handleClose}
-                style={{ color: location.pathname === "/works" && "#0c56f4" }}
+                style={{ color: location.pathname === "/works" && "	#eb148d" }}
               >
                 CV
               </Link>
@@ -75,7 +75,7 @@ const NavBar = () => {
               <Link
                 to="/contact"
                 onClick={handleClose}
-                style={{ color: location.pathname === "/contact" && "#0c56f4" }}
+                style={{ color: location.pathname === "/contact" && "	#eb148d" }}
               >
                 Contact
               </Link>

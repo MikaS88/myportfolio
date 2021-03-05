@@ -1,12 +1,12 @@
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import NavBar from "./components/NavBar/NavBar";
-import Home from "./components/Home";
-import About from "./components/About";
-import Skills from "./components/Skills";
-import CV from "./components/CV";
-import Contact from "./components/Contact";
-import Footer from "./components/Footer";
-import './app.css'
+import Home from "./components/Home/Home";
+import About from "./components/About/About";
+import Skills from "./components/Skills/Skills";
+import CV from "./components/CV/CV";
+import Contact from "./components/Contact/Contact";
+import Footer from "./components/Footer/Footer";
+import './App.css'
 
 const  App = () =>{
   return (
